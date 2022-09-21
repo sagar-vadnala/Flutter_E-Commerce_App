@@ -1,5 +1,4 @@
 import 'package:e_commerce_app/screens/bottom_bar.dart';
-import 'package:e_commerce_app/screens/shop_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,6 +17,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: BottomBar());
+        home: const BottomBar());
   }
 }

@@ -6,7 +6,7 @@ class CartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text(
+      child: const Text(
         "Shopping cart",
         style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
       ),
